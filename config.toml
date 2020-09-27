@@ -1,4 +1,4 @@
-baseURL = "https://elyunque.github.io/coffee/public/"
+baseURL = "https://localhost/"
 languageCode = "es-ES"
 title = "My New Hugo Site"
 publishDir = "docs"
