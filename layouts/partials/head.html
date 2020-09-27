@@ -26,4 +26,20 @@
         <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/main.css">
+
+    <style>
+        
+        .banner-area {
+            background: url({{ $.Site.Params.bannerimage }}) center;
+            background-size: cover;
+          }
+
+        @media (max-width: 768px) {
+            .banner-area {
+              background: url({{ $.Site.Params.bannerimage }});
+              background-position: 50% 90% 50% 50%;
+            }
+          }
+          
+    </style>
     </head>

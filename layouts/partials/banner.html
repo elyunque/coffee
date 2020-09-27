@@ -3,12 +3,12 @@
             <div class="container">
                 <div class="row fullscreen d-flex align-items-center justify-content-start">
                     <div class="banner-content col-lg-7">
-                        <h6 class="text-white text-uppercase">Now you can feel the Energy</h6>
+                        <h6 class="text-white text-uppercase">{{ $.Site.Params.bannerline1 }}</h6>
                         <h1>
-                            Start your day with <br>
-                            a black Coffee				
+                            {{ $.Site.Params.bannerline2 }}<br>
+                            {{ $.Site.Params.bannerline3 }}       
                         </h1>
-                        <a href="#" class="primary-btn text-uppercase">Buy Now</a>
+                        <a href="#" class="primary-btn text-uppercase">{{ $.Site.Params.bannerbutton }}</a>
                     </div>											
                 </div>
             </div>
