@@ -1,3 +1,4 @@
 baseURL = "https://elyunque.github.io/coffee/public/"
 languageCode = "es-ES"
 title = "My New Hugo Site"
+publishDir = "docs"
