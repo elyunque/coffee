@@ -1,7 +1,7 @@
-baseURL: "https://localhost/"
-languageCode: "es-ES"
-title: "My New Hugo Site"
-publishDir: "docs"
+baseURL = "https://localhost/"
+languageCode = "es-ES"
+title = "My New Hugo Site"
+publishDir = "docs"
 [params]
   schedule1 = "Lun-Vie: 8am a 2pm"
   schedule2 = "Sab-Dom: 11am a 4pm"
