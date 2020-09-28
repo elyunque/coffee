@@ -15,7 +15,7 @@ do
 
   case "$TYPE" in
     owner|user_updated) 
-      mysql -ss direc -e "SELECT CONCAT('$FIELD', CHAR(34), first_name, ' ', last_name, CHAR(34)) \
+      mysql -ss direc -e "SELECT CONCAT('$FIELD', '$SWITCH' CHAR(34), first_name, ' ', last_name, CHAR(34)) \
         FROM $COLLECTION main \
         LEFT JOIN directus_users ON main.$FIELD = directus_users.id \
         WHERE main.id=$ITEM;"
