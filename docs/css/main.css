@@ -2282,21 +2282,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   bottom: 0;
 }
 
-.banner-area {
-  background: url(../img/header-bg.jpg) center;
-  background-size: cover;
-}
-
 @media (max-width: 1199.98px) {
   .banner-area .fullscreen {
     height: 920px !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .banner-area {
-    background: url(../img/header-bg.jpg);
-    background-position: 50% 90% 50% 50%;
   }
 }
 
